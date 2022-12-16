@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+     font-family: 'Roboto', sans-serif !important;
+}
+
+.backpack-nav-item a {
+     color: black;
+     font-weight: 700;
+     margin-right: 15px;
+}
+
+.top-section-text {
+
+     font-style: normal;
+     font-weight: 700;
+     font-size: 75px;
+     line-height: 70px;
+}
+
+.buy-now-btn {
+     width: 140px;
+     height: 50px;
+     border-radius: 10px;
+     border: 0;
+     background-color: #2A1E59;
+
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #FFFFFF;
+}
+
+.buy-now-btn img {
+     width: 30px;
+     margin-right: 0.3em;
+}
+
+.about-us{
+     margin-top: 150px;
+     margin-bottom: 120px;
+}
+.product-header{
+     text-transform: uppercase;
+     font-weight: 700;
+}
+.backpack-card{
+     border: 0;
+
+}
+.backpack-card-img{
+     background-color: #F1F1F1;
+     border-radius: 20px;
+}
+.price{
+     color: #76C27E;
+}
+
+
+
+@media all and (max-width:767px) {
+     .top-section-text {
+          font-size: 60px;
+          line-height: 60px;
+          margin-top: 30px;
+     }
+}
